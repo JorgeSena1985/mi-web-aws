@@ -3,6 +3,9 @@
 IP="52.213.89.124"
 KEY="~/mi-clave.pem"
 
+echo "📝 Escribe mensaje de commit:"
+read mensaje
+
 echo "📤 Subiendo cambios a GitHub..."
 git add .
 git commit -m "auto deploy"
