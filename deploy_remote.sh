@@ -8,7 +8,7 @@ read mensaje
 
 echo "📤 Subiendo cambios a GitHub..."
 git add .
-git commit -m "auto deploy"
+git commit -m "$mensaje" 
 git push
 
 echo "🌐 Ejecutando deploy en servidor..."
