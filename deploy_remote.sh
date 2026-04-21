@@ -1,7 +1,7 @@
 #!/bin/bash
 
 IP="34.241.203.199"
-KEY= $HOME/my-key.pem
+KEY="$HOME/my-key.pem"
 
 echo "📝 Escribe mensaje de commit:"
 read mensaje
