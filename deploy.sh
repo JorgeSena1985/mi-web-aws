@@ -3,8 +3,8 @@
 IP="34.241.203.199"
 KEY= $HOME/my-key.pem
 
-echo "🚀 Subiendo web..."
-scp -i $KEY -r . ubuntu@$IP:/home/ubuntu/web
+echo "🚀 Subiendo web a todo pastilla..."
+scp -i $KEY -r . ubuntu@$IP:/home/ubuntu/mi-web-aws
 
 echo "🔧 Actualizando servidor..."
 ssh -i $KEY ubuntu@$IP << EOF
