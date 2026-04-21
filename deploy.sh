@@ -1,7 +1,7 @@
 #!/bin/bash
 
-IP="52.213.89.124"
-KEY="~/mi-clave.pem"
+IP="34.241.203.199"
+KEY= $HOME/my-key.pem
 
 echo "🚀 Subiendo web..."
 scp -i $KEY -r . ubuntu@$IP:/home/ubuntu/web
